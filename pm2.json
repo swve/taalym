@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "taalym",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
