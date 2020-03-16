@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan&family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@700;800;900&display=swap");
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+p.lead{
+  color: white;
+  font-size: 25px;
+}
+.divider {
+  height: 50px;
+}
+.navbar {
+    background-color: transparent !important;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  backdrop-filter: saturate(180%) blur(14px);
+  box-shadow: 0 2px 13px 12px rgba(3, 27, 78, 0.21);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+}
+.jumbotron {
+ // background-color: #353535;
+ background-image: url('/img/cover.jpg');
+ background-size: cover;
+}
+.websites{
+  margin:auto;
+  text-align: center;
+}
+.card{
+  width: 15rem;
+  margin-bottom: 15px;
+}
