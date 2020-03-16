@@ -31,7 +31,7 @@ const Home = props => (
         <div className="row justify-center ">
           
             {props.websites.map(web => (
-              <div className="col">
+              <div key={web.name} className="col">
               <div className="card mx-auto text-center">
                 <img
                   className="card-img-top"
