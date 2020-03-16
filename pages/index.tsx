@@ -5,7 +5,11 @@ import getWebsite from "../services/getWebsite";
 const Home = props => (
   <div>
     <Layout title="Home">
+    
       <div className="jumbotron jumbotron-fluid">
+      <div className="alert alert-warning text-center" role="alert">
+          هادا الموقع غير مرتبط مع وزارة التعليم المغربية
+        </div>
         <div className="container text-center">
           <p className="lead">
             List of high quality moroccan elearning websites
